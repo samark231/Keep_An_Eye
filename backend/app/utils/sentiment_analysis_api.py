@@ -34,8 +34,8 @@ def fetch_response_gemini(final_prompt, api_key):
             return None, "Malformed response from Gemini API"
 
         gemini_response = candidate.content.parts[0].text
-        # with open(response_text_path, "w") as f:
-        #     f.write(gemini_response)
+        with open(response_text_path, "w") as f:
+            f.write(gemini_response)
         # Ensure response has enough length before slicing
         if len(gemini_response) < 10:
             return None, "Gemini response is too short to process"
@@ -45,10 +45,10 @@ def fetch_response_gemini(final_prompt, api_key):
         # Parse JSON response
         try:
             ultimate_data = json.loads(modified_gemini_response)
-            # with open(response_text_path2, "w") as source, open(ultimate_data_path, "w") as dest:
-            #     source.write(modified_gemini_response)
-            #     # print(type(ultimate_data))
-            #     dest.write(json.dumps(ultimate_data))
+            with open(response_text_path2, "w") as source, open(ultimate_data_path, "w") as dest:
+                source.write(modified_gemini_response)
+                # print(type(ultimate_data))
+                dest.write(json.dumps(ultimate_data))
         except json.JSONDecodeError:
             print("error in fetching gemini response.0 ")
             return None, "Failed to parse Gemini response as JSON"

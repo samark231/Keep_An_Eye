@@ -1,6 +1,6 @@
 task: you will be given an array which will have n number of dictionary. each dictionary reprresent data of news article about a company. each of the news article will have 6 keys. 
         id, link, source, title, content. for each news article with id = 1 to n, your task is to -
-        1. find "sentiment_val" - this can have three value. positive, negative or neutral. i.e you have to read content and analyse sentiment of this article whether it is positive negative or neutral. 
+        1. find "sentiment_val" - this can have only three value. positive, negative or neutral. i.e you have to read content and analyse sentiment of this article whether it is positive negative or neutral. all content must be catogirised under only these 3 values.
         2. find "comparision_val" - this is a string of length more than 30 but less than 50. which compares the content of article with other articles.
         3. find "topic_val" - this is a list of string, each string representing the main topics in the article.
         4. find "impact_val" - this is a string of length more than 30 but less than 50. it represents what impact this news article may have on different aspects of company like stocks, consumer relationships, or any other relevent things.

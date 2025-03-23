@@ -1,123 +1,200 @@
 
 [
-    [
-        {
-            "id": 1,
-            "link": "https://www.apple.com/newsroom/",
-            "source": "Apple",
-            "title": "Newsroom",
-            "content_summary": "This page serves as the central hub for all official news releases from Apple. It allows users to read press releases, view updates, watch videos, and download images directly from Apple. It's a comprehensive resource for anyone looking for first-hand information about Apple's products, services, and corporate announcements. The interface is designed to provide media and the public with easy access to verified information, helping to maintain transparency and direct communication from the company itself. Users can stay updated on Apple's activities through this dedicated news portal.",
-            "sentiment_val": "neutral",
-            "comparision_val": "This is the official Apple news, avoiding third-party bias.",
-            "topic_val": ["official news", "press releases", "updates"],
-            "impact_val": "Keeps investors and consumers informed about company."
-        },
-        {
-            "id": 2,
-            "link": "https://apps.apple.com/in/app/hindustan-times-news-updates/id1000991178",
-            "source": "Apple",
-            "title": "\u200eHindustan Times - News Updates",
-            "content_summary": "The Hindustan Times app provides news updates from India and around the world. The app offers news on current affairs, politics, sports, entertainment, business, astrology, lifestyle and local city news. Users can personalize their experience by reading news in English, Hindi, Bangla, Telugu, Marathi, Tamil & Kannada. The app also features weather updates, cricket scores, astrology news, entertainment news, and global news coverage. It also has various formats such as videos, photos, web stories, newsletters, audio podcasts, quick reads and even games. The app also offers a subscription plan for HT Premium.",
-            "sentiment_val": "positive",
-            "comparision_val": "This news app provides comprehensive and elaborate coverage.",
-            "topic_val": ["news", "india", "world", "updates"],
-            "impact_val": "This app provides all rounded news for the user."
-        },
-        {
-            "id": 3,
-            "link": "https://www.apple.com/macos/macos-sequoia/",
-            "source": "Apple",
-            "title": "macOS Sequoia",
-            "content_summary": "macOS Sequoia enhances user experience with features like iPhone Mirroring, allowing users to control their iPhone from their Mac. It introduces Apple Intelligence for personalized and relevant assistance, improving writing with summarizing tools and language capabilities. The update allows customization with text effects, Genmoji, and memory movies. Safari gains smart highlights and a video viewer. The Passwords app provides secure credential storage across devices. Gaming gets a boost with Metal 3. Notes have new features, and much more. It is designed to enhance productivity and creativity.",
-            "sentiment_val": "positive",
-            "comparision_val": "The article highlights the various capabilities of macOS Sequoia.",
-            "topic_val": ["macos", "sequoia", "apple intelligence", "iphone mirroring"],
-            "impact_val": "Enhances productivity and user experience on mac devices."
-        },
-        {
-            "id": 4,
-            "link": "https://zeenews.india.com/technology/apple-iphone-15-receives-massive-discount-on-amazon-exchange-cashback-offers-inside-2875262.html",
-            "source": "Zee News",
-            "title": "Apple iphone 15 Receives Massive Discount On Amazon \u2013 Exchange & Cashback Offers Inside!",
-            "content_summary": "This article discusses the significant discounts available on the Apple iPhone 15 through Amazon, including exchange and cashback offers. Amazon has reduced the price of the iPhone 15 (128GB) by Rs 18,000, making it more affordable. Customers can save even more by trading in their old iPhone 14, potentially reducing the final price to Rs 34,200. Additionally, using an Amazon Pay ICICI credit card can provide further cashback benefits. The article also highlights the iPhone 15's features such as its Ceramic Shield front, aluminum frame, and IP68 rating.",
-            "sentiment_val": "positive",
-            "comparision_val": "This article details iPhone 15 discounts on Amazon India.",
-            "topic_val": ["iphone 15", "discount", "amazon", "offers"],
-            "impact_val": "Makes iphone 15 more accessible with reduced prices."
-        },
-        {
-            "id": 5,
-            "link": "https://www.apple.com/",
-            "source": "Apple",
-            "title": "Apple",
-            "content_summary": "The content showcases Apple's latest products and services, emphasizing features like Apple Intelligence and the M4 chip. It highlights new finishes, performance improvements, and health tracking capabilities. It also advertises trade-in programs for iPhones and financing options like Apple Card. Special deals are available for the iPhone 16 through carriers like AT&T, Boost Mobile, and T-Mobile, along with promotions for Apple services such as Apple Music and Apple TV+. It presents the opportunity to personalize devices and promote a range of Apple products and services.",
-            "sentiment_val": "positive",
-            "comparision_val": "This article provides information and deals directly.",
-            "topic_val": ["products", "services", "deals", "apple intelligence"],
-            "impact_val": "Attracts customers by offering trade-ins and offers."
-        },
-        {
-            "id": 6,
-            "link": "https://www.apple.com/ios/ios-18/",
-            "source": "Apple",
-            "title": "iOS 18",
-            "content_summary": "iOS 18 enhances iPhone personalization with greater customization, connectivity, and photo management features. It introduces Apple Intelligence on iPhone 16 models, 15 Pro, and 15 Pro Max. Users can personalize their Home Screen layout, app icons, and widgets. New privacy features allow locking or hiding sensitive apps. Control Center gets a redesign with customizable controls. The Photos app has improved organization, and iMessage gains playful animated text effects. Satellite connectivity, scheduled messages, and RCS support enhance communication. Safari will also get a summary of an article before reading on.",
-            "sentiment_val": "positive",
-            "comparision_val": "The article describes the upcoming features of iOS 18.",
-            "topic_val": ["ios 18", "customization", "privacy", "apple intelligence"],
-            "impact_val": "Enhances iphone's functionality and user privacy."
-        },
-        {
-            "id": 7,
-            "link": "https://www.apple.com/newsroom/2024/12/apple-intelligence-now-features-image-playground-genmoji-and-more/",
-            "source": "Apple",
-            "title": "Apple Intelligence now features Image Playground, Genmoji, and more",
-            "content_summary": "Apple Intelligence is expanding its capabilities, now featuring Image Playground, Genmoji, and enhanced Writing Tools, along with ChatGPT integration. Users can create original images with Image Playground and personalized Genmoji for conversations. Writing Tools include a Describe Your Change option. With the new Camera Control on the iPhone 16 lineup, learn more about objects and places instantly with visual intelligence. Also Apple Intelligence begins language expansion with localized English support for Australia, Canada, Ireland, New Zealand, South Africa, and the U.K.",
-            "sentiment_val": "positive",
-            "comparision_val": "This article talks about new features of Apple intelligence.",
-            "topic_val": ["apple intelligence", "image playground", "genmoji", "chatgpt"],
-            "impact_val": "Apple Intelligence enhances device capabilities and experiences."
-        },
-        {
-            "id": 8,
-            "link": "https://apps.apple.com/us/app/cgtn/id922456579",
-            "source": "Apple",
-            "title": "\u200eCGTN",
-            "content_summary": "CGTN is a global news app providing diverse, balanced, and objective content from a different perspective, focusing on China and the world. It supports five languages: English, Spanish, French, Arabic, and Russian, featuring breaking news, in-depth stories, and livestreams. CGTN offers a comprehensive archive of articles, audio, video, and TV shows covering politics, business, technology, and more. The app aims to provide trusted information without ads or in-app purchases, delivering personalized, hassle-free news and audiovisual content with features for Apple CarPlay.",
-            "sentiment_val": "positive",
-            "comparision_val": "This article describes CGTN's attempt at global news coverage.",
-            "topic_val": ["news", "china", "global", "multilingual"],
-            "impact_val": "CGTN enhances global awareness with diverse perspectives."
-        },
-        {
-            "id": 9,
-            "link": "https://zeenews.india.com/technology/google-pixel-9a-india-launch-flipkart-with-ai-features-priced-lower-than-apples-iphone-16e-check-specs-and-price-2874488.html",
-            "source": "Zee News",
-            "title": "Google Pixel 9a Launched In India With AI Features, Priced Lower Than Apples iPhone 16e; Check Specs And Price",
-            "content_summary": "The Google Pixel 9a has launched in India as a budget-friendly option in the Pixel 9 series, priced lower than Apple's iPhone 16e. It features a Tensor G4 chipset, dual-camera setup with AI enhancements, and built-in Gemini assistance. The Pixel 9a offers a 6.3-inch Actua display, a 5100mAh battery, and runs on Android 15 with seven years of updates. The new-generation Pixel 9a expands Google's Pixel lineup. It sports a 6.3-inch Actua display with a resolution of 1080 x 2424 pixels.",
-            "sentiment_val": "positive",
-            "comparision_val": "This article compares Pixel 9a to Apple's iPhone 16e.",
-            "topic_val": ["google pixel 9a", "india launch", "ai features", "iphone 16e"],
-            "impact_val": "Offers a budget-friendly alternative to Apple's iPhone."
-        },
-        {
-            "id": 10,
-            "link": "https://www.apple.com/store",
-            "source": "Apple",
-            "title": "Store.",
-            "content_summary": "The Apple Store offers the latest Apple products, accessories, and personalized shopping experiences. It features options like two-hour delivery, trade-in programs, and flexible payment plans. Customers can engrave devices with emoji and text. The store promotes Apple Intelligence on select devices and provides information on carrier deals from AT&T, Boost Mobile, T-Mobile, and Verizon, including trade-in offers. Additional services like Apple Music and Apple TV+ are highlighted, alongside details on financing and Apple Card options, and special offers and restrictions apply. It also includes a disclaimer.",
-            "sentiment_val": "positive",
-            "comparision_val": "Offers various shopping options like trade-in and installment.",
-            "topic_val": ["apple store", "products", "deals", "financing"],
-            "impact_val": "Promotes product sales with convenient shopping options."
-        }
-    ],
-    [
-        "news",
-        "apple intelligence",
-        "iphone",
-        "deals"
-    ],
-    "Overall, the sentiments expressed across these news articles present a positive image of Apple. Several articles focus on new features like Apple Intelligence and iOS 18, indicating ongoing innovation and improvements to user experience. There is good news regarding the launch of new product lines and affordable options of devices. Furthermore, the discounts and trade-in programs are helpful to consumers who can now readily purchase the device at a low price. However, it is also important to take into account potential negative sentiments or biases that might exist in other sources of information, particularly related to consumer privacy concerns and fair competition.",
-    "Analysis complete."
+  [
+    {
+      "id": 1,
+      "link": "https://zeenews.india.com/mobility/people-sabotaging-tesla-cars-may-go-to-jail-for-up-to-20-years-donald-trump-2875073.html",
+      "source": "Zee News",
+      "title": "People Sabotaging Tesla Cars May Go To Jail For Up To 20 Years: Donald Trump",
+      "content_summary": "US President Donald Trump stated that individuals caught sabotaging Tesla vehicles could face up to 20 years in jail. This announcement followed US Attorney General Pam Bondi's condemnation of violent attacks on Tesla property, labeling them as 'domestic terrorism.' Bondi vowed severe consequences for perpetrators and those funding these crimes. The statement comes after incidents involving damaged Tesla vehicles, vandalism at dealerships and charging stations, and protests following Elon Musk's appointment to a government role. The US Department of Defence is also set to brief Musk on potential war plans with China.",
+      "sentiment_val": "negative",
+      "comparision_val": "This article highlights government response to attacks, differing from typical reports focusing solely on the incidents.",
+      "topic_val": [
+        "Tesla",
+        "sabotage",
+        "Donald Trump",
+        "attacks",
+        "Elon Musk",
+        "Department of Government Efficiency (DOGE)"
+      ],
+      "impact_val": "The article's impact is heightened security and potential legal repercussions for Tesla vandals and potential funders.",
+      "summary": "US President Trump warns of jail time for Tesla saboteurs after a series of attacks. Attorney General labels it domestic terrorism."
+    },
+    {
+      "id": 2,
+      "link": "https://www.cnbc.com/quotes/TSLA",
+      "source": "CNBC",
+      "title": "Check out Tesla's stock price (TSLA) in real time",
+      "content_summary": "This CNBC page provides real-time stock quotes, news, price, and financial information for Tesla Inc. (TSLA:NASDAQ). It also includes various resources for personal finance, such as credit card recommendations, loan options, and savings account information. Additional sections focus on small business finances, help for low credit scores, investment advice, and more. The page emphasizes real-time data and is part of CNBC's global business and financial news coverage.",
+      "sentiment_val": "neutral",
+      "comparision_val": "This is a data feed, differing from news focusing on specific events or analysis of Tesla.",
+      "topic_val": [
+        "Tesla stock",
+        "TSLA",
+        "stock price",
+        "financial data",
+        "market data"
+      ],
+      "impact_val": "Provides investors with immediate data to inform trading and investment decisions related to Tesla shares.",
+      "summary": "CNBC provides real-time stock quotes, news, and financial data for Tesla Inc. (TSLA: NASDAQ), along with personal finance resources."
+    },
+    {
+      "id": 3,
+      "link": "https://www.newsx.com/tag/tesla-takedown-movement/",
+      "source": "Newsx",
+      "title": "Tesla Takedown Movement",
+      "content_summary": "This Newsx article discusses the 'Tesla Takedown Movement' which is fueled by backlash against Elon Musk's role in government. Demonstrations have occurred at nearly 90 Tesla showrooms across the United States for five consecutive weeks. The protests are linked to Musk's leadership of the Department of Government Efficiency (DOGE) and its impact on federal government staffing and budgets. The article highlights the growing opposition to Musk's involvement in governmental affairs and its subsequent effect on his company, Tesla.",
+      "sentiment_val": "negative",
+      "comparision_val": "Focuses on the protest movement, unlike reports detailing specific vandalism instances against Tesla.",
+      "topic_val": [
+        "Tesla Takedown Movement",
+        "Elon Musk",
+        "DOGE",
+        "protests",
+        "backlash"
+      ],
+      "impact_val": "Highlights potential for continued protests and damaged brand reputation for Tesla due to the movement.",
+      "summary": "Newsx reports on the 'Tesla Takedown Movement', protests sparked by Elon Musk's government role and budget cuts, impacting showrooms."
+    },
+    {
+      "id": 4,
+      "link": "https://www.newsx.com/tag/tesla-protests/",
+      "source": "Newsx",
+      "title": "tesla protests",
+      "content_summary": "This Newsx article centers on Tesla protests related to Elon Musk's leadership within the Department of Government Efficiency (DOGE). The protests stem from Musk's involvement in cutting federal government staffing and budgets, which has generated widespread opposition. Demonstrations have taken place at approximately 90 Tesla showrooms throughout the United States for the past five weeks. The article underscores the ongoing and organized resistance against Tesla, driven by Musk's controversial government role.",
+      "sentiment_val": "negative",
+      "comparision_val": "Similar to other articles highlighting the protests, but may offer unique details or perspectives on them.",
+      "topic_val": [
+        "Tesla protests",
+        "Elon Musk",
+        "DOGE",
+        "demonstrations",
+        "government efficiency"
+      ],
+      "impact_val": "Continued demonstrations can deter potential customers and negatively affect Tesla's sales and public image.",
+      "summary": "Newsx covers Tesla protests driven by Elon Musk's governmental role and related budget cuts, leading to showroom demonstrations."
+    },
+    {
+      "id": 5,
+      "link": "https://telanganatoday.com/tesla-dealerships-under-attack-in-us-as-musk-takes-up-vital-role-under-trump-administration",
+      "source": "Telangana Today",
+      "title": "Tesla dealerships under attack in US as Musk takes up vital role under Trump administration",
+      "content_summary": "Tesla dealerships are facing attacks across the US and overseas following Elon Musk's appointment to a vital role under the Trump administration. Incidents include arson, vandalism, and Molotov cocktail attacks. Experts suggest these attacks are linked to Musk's oversight of the Department of Government Efficiency. Protests have also been organized, and some owners have vowed to sell their vehicles. Law enforcement is investigating these incidents, with some perpetrators facing charges related to domestic extremism.",
+      "sentiment_val": "negative",
+      "comparision_val": "This article directly connects the attacks to Musk's government role, a key differentiator.",
+      "topic_val": [
+        "Tesla dealerships",
+        "attacks",
+        "Elon Musk",
+        "Trump administration",
+        "DOGE",
+        "vandalism"
+      ],
+      "impact_val": "The rise in attacks threatens the physical safety of Tesla properties and brand reputation, potentially impacting sales.",
+      "summary": "Tesla dealerships face attacks linked to Musk's role in the Trump administration. Arson and vandalism incidents are on the rise."
+    },
+    {
+      "id": 6,
+      "link": "https://english.mathrubhumi.com/news/world/tesla-vehicles-set-on-fire-in-las-vegas-1.10434633",
+      "source": "Mathrubhumi English",
+      "title": "Several Tesla vehicles torched in Las Vegas; police probe possible arson",
+      "content_summary": "Authorities are investigating a possible arson attack at a Tesla service center in Las Vegas, Nevada, where multiple vehicles were set on fire. The incident occurred in the early hours of Tuesday. The Tesla service center was also vandalized with graffiti. This is the latest in a series of attacks against the electric vehicle maker's property. The Metropolitan Police Department is currently investigating the incident.",
+      "sentiment_val": "negative",
+      "comparision_val": "Focuses on a specific arson incident, unlike articles with broader coverage of protests.",
+      "topic_val": [
+        "Tesla",
+        "arson",
+        "Las Vegas",
+        "vandalism",
+        "police investigation"
+      ],
+      "impact_val": "This arson attack might deter customers from choosing Tesla and could impact service center operations.",
+      "summary": "Police investigate a suspected arson attack at a Tesla service center in Las Vegas where multiple vehicles were torched and vandalized."
+    },
+    {
+      "id": 7,
+      "link": "https://www.marketwatch.com/investing/stock/tsla",
+      "source": "MarketWatch",
+      "title": "TSLA Stock Price | Tesla Inc. Stock Quote (U.S.: Nasdaq)",
+      "content_summary": "This MarketWatch page provides real-time stock news and stock quotes for Tesla Inc. (TSLA). It aims to give a complete financial overview of the company's stock performance. However, the current content requires JavaScript to be enabled and ad blockers to be disabled to function properly. Once enabled, users can view real-time stock prices and stock quotes for a full financial overview of Tesla's stock.",
+      "sentiment_val": "neutral",
+      "comparision_val": "Provides stock data, unlike articles focusing on protests or political backlash.",
+      "topic_val": [
+        "TSLA",
+        "stock price",
+        "Tesla stock",
+        "market data",
+        "stock quotes"
+      ],
+      "impact_val": "Enables investors to track Tesla's stock performance and make informed trading and investment decisions regarding TSLA.",
+      "summary": "MarketWatch offers real-time stock prices and quotes for Tesla Inc. (TSLA), providing a financial overview, requires enabling Javascript."
+    },
+    {
+      "id": 8,
+      "link": "https://www.aljazeera.com/podcasts/2025/3/21/tesla-takedown-how-elon-musks-trump-alliance-is-triggering-backlash",
+      "source": "Al Jazeera",
+      "title": "\u2018Tesla Takedown\u2019: How Elon Musk\u2019s Trump alliance is triggering backlash",
+      "content_summary": "Al Jazeera's podcast explores the backlash against Elon Musk due to his association with Donald Trump. The 'Tesla Takedown' movement, including boycotts, protests, and attacks, has caused Tesla's stock to plummet. The US Attorney General labeled the attacks as 'domestic terrorism.' The podcast examines the reasons behind this fallout and its potential impact on Tesla. The episode includes various production credits and contact information for Al Jazeera English.",
+      "sentiment_val": "negative",
+      "comparision_val": "The podcast format provides deeper analysis than a typical news article on the protests.",
+      "topic_val": [
+        "Tesla Takedown",
+        "Elon Musk",
+        "Donald Trump",
+        "backlash",
+        "protests",
+        "stock price"
+      ],
+      "impact_val": "The podcast raises concerns about long-term consequences of Musk's political ties on Tesla's financial stability and reputation.",
+      "summary": "Al Jazeera podcast analyzes backlash against Elon Musk's Trump alliance, impacting Tesla's stock through protests and attacks labeled terrorism."
+    },
+    {
+      "id": 9,
+      "link": "https://www.bbc.com/news/business-61234231",
+      "source": "BBC",
+      "title": "Who is Elon Musk and what is his net worth?",
+      "content_summary": "This BBC article profiles Elon Musk, covering his various ventures including X (formerly Twitter), Tesla, and SpaceX. It discusses his controversial role in the 2024 US presidential election, leading to backlash, and also details his business history, personal life, and political views. The article mentions Musk's other ventures, controversies, wealth, and evolving political views, and controversies including his endorsement of the far-right AfD party in Germany. It highlights the impact of these aspects on his public image and business ventures.",
+      "sentiment_val": "negative",
+      "comparision_val": "A broad profile, unlike focused reports on Tesla attacks or stock prices.",
+      "topic_val": [
+        "Elon Musk",
+        "Tesla",
+        "SpaceX",
+        "Twitter/X",
+        "net worth",
+        "politics",
+        "controversies"
+      ],
+      "impact_val": "Musk's controversial actions impacts Tesla's reputation, influencing consumer sentiment and brand value.",
+      "summary": "BBC profiles Elon Musk's ventures, political involvement, and controversies, detailing his impact on companies like Tesla and X."
+    },
+    {
+      "id": 10,
+      "link": "https://www.nasdaq.com/market-activity/stocks/tsla",
+      "source": "Nasdaq",
+      "title": "Tesla, Inc. Common Stock (TSLA)",
+      "content_summary": "This Nasdaq page provides real-time data for Tesla, Inc. Common Stock (TSLA). While an error message is displayed, it typically offers stock prices, quotes, historical data, news, and insights. It explains bid and ask prices, bid-ask spreads, and the importance of liquidity. It also emphasizes the use of market and limit orders for successful order execution. Nasdaq Basic powers real-time data, which is available through Nasdaq Data Link APIs.",
+      "sentiment_val": "neutral",
+      "comparision_val": "Provides real-time data, differentiating it from articles analyzing specific news events.",
+      "topic_val": [
+        "TSLA",
+        "Tesla stock",
+        "stock prices",
+        "market data",
+        "bid-ask spread",
+        "liquidity"
+      ],
+      "impact_val": "Offers investors real-time market insights and tools to inform trading strategies for Tesla stock.",
+      "summary": "Nasdaq provides real-time stock data and market insights for Tesla Inc. (TSLA), including bid-ask prices and liquidity analysis."
+    }
+  ],
+  [
+    "Tesla",
+    "Elon Musk",
+    "attacks",
+    "protests",
+    "stock"
+  ],
+  "Overall, the sentiment surrounding Tesla is negative due to the ongoing attacks on its properties and the backlash against Elon Musk's political involvement. Articles highlight vandalism, arson, and protests linked to Musk's role in government and his association with controversial figures. This negative press has the potential to damage Tesla's brand reputation, deter customers, and impact its stock value, although some articles simply present neutral financial data. The dominant narrative reflects concerns about the company's stability and future prospects amid these challenges, creating uncertainty in the market and affecting investor confidence. This could lead to decreased sales and a decline in market share for Tesla.",
+  "Analysis completed."
 ]

@@ -18,7 +18,7 @@ def fetch_curated_data(company):
     html_doc, error = helper.google_search_page(company)
     if html_doc is None:
         return None, error
-    # print("step 1 complete.")
+    print("step 1 complete.")
     #the beautifulsoup parses that page so that we can apply the scarping next
     soup = BeautifulSoup(html_doc, "html.parser")
 
@@ -34,27 +34,27 @@ def fetch_curated_data(company):
 
     if all_articles is None:
         return None, "error in extract_information function."
-    # print("step 2 complete.")
+    print("step 2 complete.")
     with open(all_articles_path, "w") as f:
         f.write(json.dumps(all_articles))
 
     helper.add_content(all_articles)
 
-    # print("step 3 complete.")
+    print("step 3 complete.")
     with open(all_articles_with_content_path, "w") as f2:
         f2.write(json.dumps(all_articles))
 
     final_prompt = api.generate_prompt(all_articles)
-    # print("step 4 complete.")
+    print("step 4 complete.")
 
     ultimate_data, error = api.fetch_response_gemini(final_prompt, api_key)
     if ultimate_data is None:
         return None, error
-    # print("step 5 complete.")
+    print("step 5 complete.")
     
 
     curated_data = helper.curate_ultimate_data(ultimate_data, company)
-    # print("step 6 complete.")
+    print("step 6 complete.")
 
     return curated_data, None
 # company= "tesla"

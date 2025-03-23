@@ -141,8 +141,8 @@ def curate_ultimate_data(ultimate_data, company):
     temp_comp_sent_score = {"Sentiment Distribution Score":sentiment_score, "Coverage Differences":coverage_diff}
     curated_data["Comparative Sentiment Score"] = temp_comp_sent_score
     curated_data["Final Sentiment Analysis"]=ultimate_data[2]
-    # with open(curated_data_path, "w") as file:
-    #     file.write(json.dumps(curated_data))
+    with open(curated_data_path, "w") as file:
+        file.write(json.dumps(curated_data))
     return curated_data
 # url = "https://www.deccanherald.com/technology/how-delhi-capitals-womens-team-used-apple-watch-ultra-2-to-keep-fit-and-improve-performance-3457247"
 # print(fetch_news_content(url))
