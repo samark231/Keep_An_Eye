@@ -1,0 +1,48 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+logs/
+*.log
+*.sqlite3
+
+# Ignore environment variables and credentials
+.env
+*.env
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.iml
+
+# Ignore dependencies installed locally
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore compiled Python files
+*.egg-info/
+
+# Ignore Hugging Face cache
+huggingface/
+hf_cache/
+
+# Ignore audio and large media files (if generated dynamically)
+*.mp3
+*.wav
+*.ogg
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/

@@ -1,0 +1,51 @@
+task: you will be given an array which will have n number of dictionary. each dictionary reprresent data of news article about a company. each of the news article will have 6 keys. 
+        id, link, source, title, content. for each news article with id = 1 to n, your task is to -
+        1. find "sentiment_val" - this can have three value. positive, negative or neutral. i.e you have to read content and analyse sentiment of this article whether it is positive negative or neutral. 
+        2. find "comparision_val" - this is a string of length more than 30 but less than 50. which compares the content of article with other articles.
+        3. find "topic_val" - this is a list of string, each string representing the main topics in the article.
+        4. find "impact_val" - this is a string of length more than 30 but less than 50. it represents what impact this news article may have on different aspects of company like stocks, consumer relationships, or any other relevent things.
+        5. find "content_summary" - this is a string of length more than 80 words but less than 100 words which summaries the content
+    you also have to find an array of string "topic_overlap" which has name of topics which is overlapping across all articles.
+    you also have to analyse all the article and find a string of length more than 200 but less than 500 - "final_sentimental_val" - which represnts the collective sentiments about the company among all the news articles. remember! this is about final sentiments. so this string should be about sentiments about the company
+    below is the format im giving according to which you have to return the response. 
+     y
+return format : return an array of  length 4. where first element of array is an array of length n.  same as the length of the array i gave you. in this first element each index i is a dictionary with 9 fields with key value mentioned above and namely "id","link", "source","title","content_summary", "sentiment_val", "comparision_val", "topic_val" and "impact_val"
+                the second element is an array of string which is "topic_overlap" ,
+                the third element is string "final_sentimental_val"
+                ans the fourth element is anything you wanna say. 
+
+example of the response that i want : this is exact response i want. if the array i gave you was of length 2
+[
+    [
+        {
+            "id": 1 #a number same as the id of input dicctionary about which these analysis are.
+            "link": "https://... #same as input
+            "source": ... #same as input
+            "title": ... #same as input
+            "content_summary" : "summary of the content.. #length more than 80 words but less than 100 words
+            "sentiment_val": "positive"
+            "comparision_val": "this article is shows how stocks of the company is growing..." #string of length more than 30 but less than 50
+            "topic_val": ["stocks", "growth"]
+            "impact_val":"the stocks are rising so company is likely to gain more consumer as well as investor #string of more than 30 but less than 50
+            
+        },
+        {
+            "id": 2 #a number same as the id of input dicctionary about which these analysis are.
+            "link": "https://... #same as input
+            "source": ... #same as input
+            "title": ... #same as input
+            "content_summary" : "summary of the content.. #length more than 80 words but less than 100 words
+            "sentiment_val": "negative"
+            "comparision_val": "this article is shows {your analysis of this company}..." #string of more than 30 but less than 50
+            "topic_val": ["stocks", "growth"]
+            "impact_val":"the stocks are down so {your anaysis of impact of this article} #string of length more than 30 but less than 50
+        }
+    ],
+    ["topic1", "topic2"...]
+    "final_sentimental_val as a string based on your analysis length more than 50 but less than",
+    "the thing you wanna say"
+]
+
+caution: sincce i am using api call to get your reponse in python , the response that you send , i am going to prase it in my python code with json.loads. hence if you add any extra word i will get and my code will fail so if you have to say anything your side of the thing should be only in the third element of array which will be string . this is the most important thing DO NOT ADD EVEN A SIGLE WORD IN THE FRONT OR BACK OF ARRAY. i know the api respnse is a string always so i will parse using json.loads but if the reponse that i get from the api call is not of  "[[], "", ""]" format i my code will faill hence only say your side of things in the third element of the array.
+here is the input array:
+{input_array}
